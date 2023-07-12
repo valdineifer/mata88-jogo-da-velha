@@ -45,7 +45,7 @@ def check_winner():
   return ''
 
 
-def check_endgame(connection):
+def check_endgame(connection: socket.socket):
   global server
   winner = check_winner()
   text = ''
