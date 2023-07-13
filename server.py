@@ -143,4 +143,7 @@ def main():
     check_endgame(connection)
 
 
-main()
+try:
+  main()
+except KeyboardInterrupt:
+  server.close() # type: ignore

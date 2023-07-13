@@ -72,8 +72,7 @@ def main():
       break
 
     matrix = deserialize_matrix(data)
-    
-    print(f'O oponente Jogou:')
+
     x,y = play()
 
     text = f"{x},{y}"
